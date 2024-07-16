@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio Website Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-----MENU SECTION------>
+    <div class="main-panel">
+        <div class="container">
+            <div class="width-33 logo">
+                 <span class="span-col"></span>
+            </div>
+            <div class="width-66">
+                <nav>
+                    <a href="#">
+                        <span class="span-col">About me</span>
+                    </a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <!------MAIN BANNERR------>
+        <div class="container ">
+            <div class="width-50">
+                <div class="banner-section">
+                    <span class="span-col">Welcome</span>
+                    <h1>
+                        My <span class="span-col">Portfolio</span>
+                    </h1>
+                    <h2>- I'm a passionate graphic designer</h2>
+
+                    <a href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="width-50">
+                <div class="about-us">
+                    <h2 class="heading-text">About Me</h2>
+                    <h3>I am available for UI UX Design Project</h3>
+                    <p>Hi, I share the applications I developed here</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Vitae suscipit tellus mauris a diam maecenas. Quis hendrerit dolor magna eget est lorem ipsum dolor. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Maecenas ultricies mi eget mauris pharetra et ultrices neque. A scelerisque purus semper eget duis. Vitae et leo duis ut diam. Semper risus in hendrerit gravida rutrum quisque non. Habitant morbi tristique senectus et netus et malesuada fames. Et malesuada fames ac turpis egestas sed tempus. Tellus mauris a diam maecenas. Pellentesque elit eget gravida cum sociis natoque penatibus.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------CONTACT US SECTION----------------------->
+    <div class="main-section contact bg-lightgrey">
+        <div class="container">
+            <h2 class="heading-text">Contact</h2>
+            <div class="width-100">
+                <form id="contactForm" method="post">
+                    <input type="text" id="name" placeholder="Name...">
+                    <span id="nameError" class="error"></span>
+                    <input type="text" id="email" placeholder="Email...">
+                    <span id="emailError" class="error"></span>
+                    <input type="text" id="mobile" placeholder="Mobile No...">
+                    <span id="mobileError" class="error"></span>
+                    <textarea id="message" placeholder="Message..."></textarea>
+                    <span id="messageError" class="error"></span>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
